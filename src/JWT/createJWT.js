@@ -5,6 +5,7 @@ const createJWT = (tokenData, expiresIn='1h') => {
     expiresIn: expiresIn,
     algorithm: 'HS256'
   });
+  
   return token;
 };
 
